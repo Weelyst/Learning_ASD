@@ -2,8 +2,18 @@ public class Mahasiswa04 {
     String nama, nim, kelas; 
     double ipk;
 
+    public Mahasiswa04(){
+
+    }
+    public Mahasiswa04(String nm, String nim, double ipk, String kls){
+        nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        kelas = kls;
+
+    }
     void tampilkanInformasi(){
-        System.out.println("Nama " + nama);
+        System.out.println(" Nama " + nama);
         System.out.println("NIM " + nim);
         System.out.println("IPK " + ipk);
         System.out.println("Kelas " + kelas);
@@ -32,6 +42,5 @@ public class Mahasiswa04 {
     }
 public static void main(String[] args) {
     
-    System.out.println(mhs);
 }
 }
