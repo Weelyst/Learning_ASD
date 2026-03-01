@@ -1,5 +1,6 @@
 public class Mahasiswa04 {
-    String nama, nim, kelas, ipk;
+    String nama, nim, kelas; 
+    double ipk;
 
     void tampilkanInformasi(){
         System.out.println("Nama " + nama);
@@ -31,6 +32,6 @@ public class Mahasiswa04 {
     }
 public static void main(String[] args) {
     
-    System.out.println();
+    System.out.println(mhs);
 }
 }
