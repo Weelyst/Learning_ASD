@@ -3,6 +3,11 @@ public class Mahasiswa04 {
     double ipk;
 
     public Mahasiswa04(){
+        static String nama = "Fuad";
+        static String nim = "1234567671";
+        static String jurusan = "Teknik Informatika";
+        static double ipk = 3.67;
+        static String kelas = "TI-1B";
 
     }
     public Mahasiswa04(String nm, String nim, double ipk, String kls){
