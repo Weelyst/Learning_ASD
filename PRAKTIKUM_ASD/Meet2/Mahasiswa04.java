@@ -3,13 +3,9 @@ public class Mahasiswa04 {
     double ipk;
 
     public Mahasiswa04(){
-        static String nama = "Fuad";
-        static String nim = "1234567671";
-        static String jurusan = "Teknik Informatika";
-        static double ipk = 3.67;
-        static String kelas = "TI-1B";
 
     }
+
     public Mahasiswa04(String nm, String nim, double ipk, String kls){
         nama = nm;
         this.nim = nim;
@@ -17,6 +13,7 @@ public class Mahasiswa04 {
         kelas = kls;
 
     }
+    
     void tampilkanInformasi(){
         System.out.println(" Nama " + nama);
         System.out.println("NIM " + nim);
@@ -35,11 +32,11 @@ public class Mahasiswa04 {
 
     }
     String nilaiKinerja(){
-        if (Ipk >= 3.5){
+        if (ipk >= 3.5){
             return "Kinerja Sangat baik";
-        } else if (Ipk >= 3.0) {
+        } else if (ipk >= 3.0) {
             return  "Kinerja Baik";
-        } else if (Ipk >=2.0) {
+        } else if (ipk >=2.0) {
             return "Kinerja Cukup";
         } else {
             return "Kinerja Kurang";
