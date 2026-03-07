@@ -20,17 +20,14 @@ public class MahasiswaDemo04 {
             arrayOfMahasiswa04[i].kelas = sc.nextLine();
             System.out.println("IPK : ");
             dummy = sc.nextLine();
-            arrayOfMahasiswa04[i].ipk = Float.parseFloat(dummy);
+            arrayOfMahasiswa04[i].ipk = Float.parseFloat(dummy);99
             System.out.println("---------------------------------");
         }
            
             for(int i = 0; i < 3; i++){
             System.out.println("DATA MAHASISWA KE- : " + (i + 1));
-            System.out.println("NIM : " +arrayOfMahasiswa04[i].nim);
-            System.out.println("NAMA : " +arrayOfMahasiswa04[i].nama);
-            System.out.println("KELAS : " +arrayOfMahasiswa04[i].kelas);
-            System.out.println("IPK : " +arrayOfMahasiswa04[i].ipk);
-             System.out.println("---------------------------------");
+           arrayOfMahasiswa04[i].cetakInfo();
+            System.out.println("---------------------------------");
 
         }
 
