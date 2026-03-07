@@ -20,7 +20,7 @@ public class MahasiswaDemo04 {
             arrayOfMahasiswa04[i].kelas = sc.nextLine();
             System.out.println("IPK : ");
             dummy = sc.nextLine();
-            arrayOfMahasiswa04[i].ipk = Float.parseFloat(dummy);99
+            arrayOfMahasiswa04[i].ipk = Float.parseFloat(dummy);
             System.out.println("---------------------------------");
         }
            
