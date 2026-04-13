@@ -5,9 +5,6 @@ public class MainDosen04 {
         Scanner sc = new Scanner(System.in);
         DataDosen04 data = new DataDosen04();
         int pilih;
-        data.tambah(new Dosen04("D01", "Dr. ice", true, 45));
-        data.tambah(new Dosen04("D02", "JewResalem", false, 30));
-        data.tambah(new Dosen04("D03", "Ricaardo", true, 38));
 
         do {
             System.out.println("\n=== MENU DATA DOSEN 04 ===");
